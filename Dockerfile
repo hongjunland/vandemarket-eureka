@@ -1,5 +1,5 @@
 # 빌드 스테이지
-FROM openjdk:17 AS builder
+FROM openjdk:17-jdk-alpine AS builder
 WORKDIR /app
 
 # 필요한 파일들 복사
