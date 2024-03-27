@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: hongjunland/vandemarket-eureka
+    container_name: eureka_server_container
+    restart: always
+    ports:
+      - "80:8761" # 웹 서버의 포트를 로컬 포트와 연결 (예시)
